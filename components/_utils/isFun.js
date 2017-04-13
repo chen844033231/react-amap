@@ -1,5 +1,5 @@
 const isFun = (arg) => {
-  return !!arg && (typeof arg === 'function');
+  return typeof arg === 'function';
 };
 
 export default isFun;
